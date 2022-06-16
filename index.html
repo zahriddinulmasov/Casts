@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>10-dars.Vazifa1</title>
+  </head>
+  <body class="bg-warning">
+    <div class="container p-5 d-flex justify-content-center">
+      <form class="form me-5 text-center">
+        <h2 class="text-center">Costs</h2>
+        <div class="d-flex flex-column mb-3">
+          <input
+            class="form__name mb-3 form-control"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <input
+            class="form__old-price mb-3 form-control"
+            type="number"
+            name="number"
+            placeholder="Old price"
+            required
+          />
+
+          <input
+            class="form__new-price form-control"
+            type="number"
+            name="number"
+            placeholder="New price"
+            required
+          />
+        </div>
+
+        <button class="btn btn-primary">Add to list</button>
+      </form>
+
+      <div class="">
+        <h2 class="text-center">List</h2>
+        <div class="products mb-3 p-3 w-100 rounded bg-light">
+          -----------------
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/todo.js"></script>
+  </body>
+</html>
